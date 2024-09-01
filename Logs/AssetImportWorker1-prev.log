@@ -1,0 +1,517 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.34f1 (4886f5360533) revision 4753141'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/aksha/OneDrive/Documents/Projects/Unity/XR Interaction Toolkit
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+6925
+Successfully changed project path to: C:/Users/aksha/OneDrive/Documents/Projects/Unity/XR Interaction Toolkit
+C:/Users/aksha/OneDrive/Documents/Projects/Unity/XR Interaction Toolkit
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16312] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1211745768 [EditorId] 1211745768 [Version] 1048832 [Id] WindowsEditor(7,Legion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16312] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1211745768 [EditorId] 1211745768 [Version] 1048832 [Id] WindowsEditor(7,Legion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 384.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.34f1 (4886f5360533)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aksha/OneDrive/Documents/Projects/Unity/XR Interaction Toolkit/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.104295 seconds.
+- Loaded All Assemblies, in  6.360 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1794 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.741 seconds
+Domain Reload Profiling: 10081ms
+	BeginReloadAssembly (2686ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (181ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (834ms)
+	LoadAllAssembliesAndSetupDomain (2598ms)
+		LoadAssemblies (2663ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2509ms)
+			TypeCache.Refresh (2506ms)
+				TypeCache.ScanAssembly (2410ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (3743ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3270ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2470ms)
+			SetLoadedEditorAssemblies (46ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (598ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.236 seconds
+Refreshing native plugins compatible for Editor in 59.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.905 seconds
+Domain Reload Profiling: 7114ms
+	BeginReloadAssembly (628ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (212ms)
+	LoadAllAssembliesAndSetupDomain (2247ms)
+		LoadAssemblies (1635ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (935ms)
+			TypeCache.Refresh (830ms)
+				TypeCache.ScanAssembly (772ms)
+			ScanForSourceGeneratedMonoScriptInfo (61ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (3906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2914ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (195ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (477ms)
+			ProcessInitializeOnLoadAttributes (2069ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (77ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.53 seconds
+Refreshing native plugins compatible for Editor in 37.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4280 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (58.7 KB). Loaded Objects now: 4744.
+Memory consumption went from 151.6 MB to 151.6 MB.
+Total: 19.436600 ms (FindLiveObjects: 1.752300 ms CreateObjectMapping: 1.346700 ms MarkObjects: 16.132400 ms  DeleteObjects: 0.202900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GazeInputManager.cs:  -> 155625cd07bc4e1e834f6e8f7d58bb43
+  custom:scripting/monoscript/fileName/ARSampleMenuManager.cs:  -> fbb7e840cb648a4eec5fda75c1c1bcbc
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorControllerUI.cs:  -> 1fdda016482e80c4f698bd161ca6a92f
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorUI.cs:  -> 0ec50ce90bac5e819d9ddb292ac27c71
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordance.cs:  -> 621a47fc1058589b07b340fb03547357
+  custom:scripting/monoscript/fileName/StarterAssetsSampleProjectValidation.cs:  -> 41923d4e3ad340b10762e754770f8031
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorHandsUI.cs:  -> bca3963bba47bbf101fe9d7e7dd07836
+  custom:scripting/monoscript/fileName/DestroySelf.cs:  -> 4403ad9e1588a465a19ece24fa8e9b79
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor:  -> ac93a809c4c32485b88edb1b417cdac1
+  custom:scripting/monoscript/fileName/IncrementUIText.cs:  -> f7d8385b142d66834e0ec965e04f971f
+  custom:scripting/monoscript/fileName/ActionBasedControllerManager.cs:  -> 04af9b76e0982b7f3b3da9f4639042cf
+  custom:scripting/monoscript/fileName/ObjectSpawner.cs:  -> 9dd8da7c17a93d30bb31c5c6f3c19a83
+  custom:scripting/monoscript/fileName/ARStarterAssetsSampleProjectValidation.cs:  -> e28542681ba71048490bf70566380520
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator:  -> b1a8126a568547b099f25fc1d4f742a8
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Samples.StarterAssets:  -> 8badff4084cdbc5a0878ca1d43243271
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets:  -> 005eb0b96ef82d6ad3847f1d4d630979
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor:  -> d5a0480ae0872006eb5e91fd694521ea
+  custom:scripting/monoscript/fileName/DynamicMoveProvider.cs:  -> 64ab64daf2a926326dc8263ed59a5ef2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.100 seconds
+Refreshing native plugins compatible for Editor in 287.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 15.155 seconds
+Domain Reload Profiling: 23179ms
+	BeginReloadAssembly (469ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (190ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (1689ms)
+	LoadAllAssembliesAndSetupDomain (5642ms)
+		LoadAssemblies (5878ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (15156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (7203ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (204ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (783ms)
+			ProcessInitializeOnLoadAttributes (4139ms)
+			ProcessInitializeOnLoadMethodAttributes (1204ms)
+			AfterProcessingInitializeOnLoad (855ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Script is not up to date after domain reload: guid(81df544512fba6b4ea2cf8723ffa2063) path("Packages/com.unity.xr.openxr/Runtime/WaitForRestartFinish.cs") state(2)
+Script is not up to date after domain reload: guid(9f0ebc320a151d3408ea1e9fce54d40e) path("Packages/com.unity.xr.openxr/Editor/OpenXRPackageSettings.cs") state(2)
+Script is not up to date after domain reload: guid(c13e63b99a8248eda9d91f10eb39538d) path("Packages/com.unity.xr.openxr/Tests/Runtime/WaitForXrFrame.cs") state(2)
+Script is not up to date after domain reload: guid(e3c40c4727414881b56fb6ba2ced6cf2) path("Packages/com.unity.xr.openxr/Runtime/input/OpenXRInput.cs") state(2)
+Script is not up to date after domain reload: guid(dd9093c836e64270bb8a8c79d98e0055) path("Packages/com.unity.xr.openxr/Tests/Editor/XRLoaderLifecycleTests.cs") state(2)
+Script is not up to date after domain reload: guid(6f316b232939c924daedd509e9595466) path("Packages/com.unity.xr.openxr/OculusQuest/Editor/OculusQuestFeatureEditor.cs") state(2)
+Script is not up to date after domain reload: guid(5224b2f26b4da475c955288a10d0e51f) path("Packages/com.unity.xr.openxr/Editor/OpenXRMangementSettings.cs") state(2)
+Script is not up to date after domain reload: guid(8dce6d72fc8d2d34e88488a09129d8a1) path("Packages/com.unity.xr.openxr/Runtime/input/OpenXRHmd.cs") state(2)
+Script is not up to date after domain reload: guid(b5a1f07dc5afe854f9f12a4194aca3fb) path("Packages/com.unity.xr.openxr/Runtime/OpenXRSettings.cs") state(2)
+Script is not up to date after domain reload: guid(2580abafffb1dc249ba2c1db66c66865) path("Packages/com.unity.xr.openxr/Editor/OpenXRBuildProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(60ef2ce2e99a450d9f86bdf7ceef92d1) path("Packages/com.unity.xr.openxr/MockRuntime/osx/openxr_loader.dylib") state(2)
+Script is not up to date after domain reload: guid(3a95153fe0b4435da68d3efd1830a340) path("Packages/com.unity.xr.openxr/Runtime/input/HapticControl.cs") state(2)
+Script is not up to date after domain reload: guid(4b8db528654998e4a8a2e81f00abc149) path("Packages/com.unity.xr.openxr/Editor/BuildTargetSupport/UWPCoreWindowBuildHooks.cs") state(2)
+Script is not up to date after domain reload: guid(95e24fd5228ad9f4da756618cc40a329) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/OpenXRChooseRuntimeLibraries.cs") state(2)
+Script is not up to date after domain reload: guid(6b96d3b7766d41dfa17f3c34f2ab18b1) path("Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs") state(2)
+Script is not up to date after domain reload: guid(492341990ff1a774f9aec136ed15b8d6) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/FeatureHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(58a54d90b4a70764b8711fcc8acc4a9e) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/OpenXRFeatureUICommon.cs") state(2)
+Script is not up to date after domain reload: guid(c8b8503ba5f540d088709eaa68e99c97) path("Packages/com.unity.xr.openxr/MockRuntime/osx/mock_runtime.dylib") state(2)
+Script is not up to date after domain reload: guid(efe441b2fedc4138ad63e41540cdd757) path("Packages/com.unity.xr.openxr/Runtime/android/x64/libUnityOpenXR.so") state(2)
+Script is not up to date after domain reload: guid(ce221e9cc2f54c348e86f85b8f046a8b) path("Packages/com.unity.xr.openxr/RuntimeLoaders/universalwindows/arm64/openxr_loader.dll") state(2)
+Script is not up to date after domain reload: guid(813b7a87f4b840439859cbff27a46185) path("Packages/com.unity.xr.openxr/Runtime/universalwindows/arm64/UnityOpenXR.dll") state(2)
+Script is not up to date after domain reload: guid(6dbd87dbe22dfb9449d36960109d3522) path("Packages/com.unity.xr.openxr/Tests/Runtime/OpenXRRuntimeTests.cs") state(2)
+Script is not up to date after domain reload: guid(c867a84f1c984248a2970c0d15b4fa65) path("Packages/com.unity.xr.openxr/ConformanceAutomation/android/arm64/ConformanceAutomationExt.so") state(2)
+Script is not up to date after domain reload: guid(363c557b3b6241808ae890327f748be8) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/DPadInteractionCustomEditor.cs") state(2)
+Script is not up to date after domain reload: guid(697e81cea9b72024098b4297d2c31678) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/OpenXRFeatureSetAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(d0a68818db30b844ebe06958ebd83f38) path("Packages/com.unity.xr.openxr/Runtime/OpenXRDiagnosticReport.cs") state(2)
+Script is not up to date after domain reload: guid(64663a5082a747e59aefc75bb1614ded) path("Packages/com.unity.xr.openxr/ConformanceAutomation/universalwindows/x64/ConformanceAutomationExt.dll") state(2)
+Script is not up to date after domain reload: guid(a1c3182e62fd44cea6ebdbb5b36feec5) path("Packages/com.unity.xr.openxr/Tests/Editor/BootConfigEditorTests.cs") state(2)
+Script is not up to date after domain reload: guid(bb94511449d94aa48dbee6056d25bb95) path("Packages/com.unity.xr.openxr/MockRuntime/android/arm64/libmock_runtime.so") state(2)
+Script is not up to date after domain reload: guid(19db6adf5be3433989f34a1788172b2c) path("Packages/com.unity.xr.openxr/Tests/Runtime/MockInteractionFeature.cs") state(2)
+Script is not up to date after domain reload: guid(3bfe33a5f8e944b0be093f643d913262) path("Packages/com.unity.xr.openxr/Tests/Editor/aAssetBundleTests.cs") state(2)
+Script is not up to date after domain reload: guid(e13d4ddd08ed1b247bb7f401bb9702ad) path("Packages/com.unity.xr.openxr/Tests/Runtime/OpenXRStatisticsTest.cs") state(2)
+Script is not up to date after domain reload: guid(f928d0d73a35f294fbe357ca17aa3547) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/MicrosoftHandInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(2bdf637432c3476caff469c96633498c) path("Packages/com.unity.xr.openxr/MockRuntime/android/x64/libopenxr_loader.so") state(2)
+Script is not up to date after domain reload: guid(f028123e2efe1d443875bc7609b4a98b) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/PalmPoseInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(68ec1a947f21450b90c756a73600afa3) path("Packages/com.unity.xr.openxr/RuntimeDebugger/osx/openxr_runtime_debugger.dylib") state(2)
+Script is not up to date after domain reload: guid(f6598911c066452da6e2b7153bfbb29e) path("Packages/com.unity.xr.openxr/MockRuntime/windows/x64/mock_runtime.dll") state(2)
+Script is not up to date after domain reload: guid(538109467cb24d89bc714edf64bef64b) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/BootConfigBuilder.cs") state(2)
+Script is not up to date after domain reload: guid(e1e9ba50d4176d24cb202771bfcf58e2) path("Packages/com.unity.xr.openxr/Runtime/OpenXRRestarter.cs") state(2)
+Script is not up to date after domain reload: guid(ee07143892e1a224eb2d596269f30752) path("Packages/com.unity.xr.openxr/RuntimeDebugger/Editor/RuntimeDebuggerWindow.cs") state(2)
+Script is not up to date after domain reload: guid(841a900f196540ef9263a286f9f36890) path("Packages/com.unity.xr.openxr/Runtime/OpenXRUtility.cs") state(2)
+Script is not up to date after domain reload: guid(82210fac00b17f4429ac7f1b85d6e30a) path("Packages/com.unity.xr.openxr/MetaQuest/Editor/MetaQuestFeatureEditor.cs") state(2)
+Script is not up to date after domain reload: guid(4a0dc36717c904db4ab68f42baa559da) path("Packages/com.unity.xr.openxr/Tests/Editor/zBuildHookTests.cs") state(2)
+Script is not up to date after domain reload: guid(42f71d9cf4c1418fbf14c5059173b760) path("Packages/com.unity.xr.openxr/MockRuntime/android/arm64/libmock_api.so") state(2)
+Script is not up to date after domain reload: guid(4baab0b5841b4511aaed068d35eb349c) path("Packages/com.unity.xr.openxr/RuntimeDebugger/android/x64/libopenxr_runtime_debugger.so") state(2)
+Script is not up to date after domain reload: guid(5e6e545add294555ba87b5c10bab2467) path("Packages/com.unity.xr.openxr/MetaQuest/Editor/BuildTargetSupport/MetaQuestFeatureBuildHooks.cs") state(2)
+Script is not up to date after domain reload: guid(c4b862ee14fb479fbfe5fffe655d3ed3) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/MetaQuestTouchProControllerProfile.cs") state(2)
+Script is not up to date after domain reload: guid(06194331529372048ab65138f86d65f8) path("Packages/com.unity.xr.openxr/Runtime/OpenXRRenderSettings.cs") state(2)
+Script is not up to date after domain reload: guid(056125dd64c0ed540b40a4af74f7b495) path("Packages/com.unity.xr.openxr/RuntimeDebugger/RuntimeDebuggerOpenXRFeature.cs") state(2)
+Script is not up to date after domain reload: guid(dc089751c573dfb4d8d426e22a9fe5ec) path("Packages/com.unity.xr.openxr/Tests/Runtime/OpenXRLoaderTests.cs") state(2)
+Script is not up to date after domain reload: guid(8d5e18cf6f984a146a3b372338d4571c) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/OpenXRFeatureBuildHooks.cs") state(2)
+Script is not up to date after domain reload: guid(1ce166e9dd674d1ea7c1f797c2d3b38c) path("Packages/com.unity.xr.openxr/RuntimeDebugger/android/arm64/libopenxr_runtime_debugger.so") state(2)
+Script is not up to date after domain reload: guid(60ca6545650dbad4a9b77c456f8463ad) path("Packages/com.unity.xr.openxr/Runtime/OpenXRConstants.cs") state(2)
+Script is not up to date after domain reload: guid(6040e3f8adec12540a375e422f163de9) path("Packages/com.unity.xr.openxr/Tests/Runtime/NoRuntimeTests.cs") state(2)
+Script is not up to date after domain reload: guid(dac433555315489092a4af72a5b5ebaf) path("Packages/com.unity.xr.openxr/MockRuntime/android/x64/libmock_api.so") state(2)
+Script is not up to date after domain reload: guid(37a59a51f65e4959930324f02ca44813) path("Packages/com.unity.xr.openxr/RuntimeLoaders/windows/x64/openxr_loader.dll") state(2)
+Script is not up to date after domain reload: guid(0a4b338a7faf8f4408f2320a777b654c) path("Packages/com.unity.xr.openxr/MetaQuest/Editor/ModifyAndroidManifestMeta.cs") state(2)
+Script is not up to date after domain reload: guid(54113394d100b63429b665f2fa220a13) path("Packages/com.unity.xr.openxr/Tests/Runtime/NativeTests.cs") state(2)
+Script is not up to date after domain reload: guid(f8eb84d75a4f7f64a86d587416e11ef1) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/KnownFeatureSets.cs") state(2)
+Script is not up to date after domain reload: guid(15350e969b159e747a2d967827002b40) path("Packages/com.unity.xr.openxr/RuntimeDebugger/DebuggerState.cs") state(2)
+Script is not up to date after domain reload: guid(f6a75d1f5ff90154ea2a8e58222a1f59) path("Packages/com.unity.xr.openxr/Runtime/Features/FoveatedRenderingFeature.cs") state(2)
+Script is not up to date after domain reload: guid(5a8992ed9d345dc4b9e452a96b131ebd) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/OpenXRLoaderUI.cs") state(2)
+Script is not up to date after domain reload: guid(15f4013cee477754ab28c0421e6c5dc2) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/OpenXRFeatureSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e5fbc19af10596b48b2014bf03c9e8e4) path("Packages/com.unity.xr.openxr/Tests/Runtime/WaitForLoaderShutdown.cs") state(2)
+Script is not up to date after domain reload: guid(9cd6d4e6af6509848ad46f9249bc5a03) path("Packages/com.unity.xr.openxr/Tests/Runtime/OpenXRLoaderSetup.cs") state(2)
+Script is not up to date after domain reload: guid(2c0b9c11362141f984d869640cc8048a) path("Packages/com.unity.xr.openxr/RuntimeDebugger/universalwindows/arm32/openxr_runtime_debugger.dll") state(2)
+Script is not up to date after domain reload: guid(9f8c88249c4adc844ba1a147fcaf83e3) path("Packages/com.unity.xr.openxr/Runtime/Features/OpenXRFeatureAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(1996830aac95a1546a907ea607836dd8) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/OpenXRFeatureEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ac3a007820947a349b40fa3f0dcfaae8) path("Packages/com.unity.xr.openxr/RuntimeDebugger/Editor/RuntimeDebuggerOpenXRFeatureEditor.cs") state(2)
+Script is not up to date after domain reload: guid(cf8c3997a9409924e824f29489a40db6) path("Packages/com.unity.xr.openxr/MetaQuest/Runtime/android/arm64/libopenxr_loader.so") state(2)
+Script is not up to date after domain reload: guid(2dfda18530834680a61247e6bd675a68) path("Packages/com.unity.xr.openxr/MockRuntime/windows/x64/openxr_loader.dll") state(2)
+Script is not up to date after domain reload: guid(e5315f812f023cf4ebf26f7e5d2d70f2) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/HPReverbG2ControllerProfile.cs") state(2)
+Script is not up to date after domain reload: guid(c3fab20e4f2e451dbbc1a5856ce147be) path("Packages/com.unity.xr.openxr/Tests/Runtime/LoaderTestSetup.cs") state(2)
+Script is not up to date after domain reload: guid(30581af4aa5c63b4493cfae0e77f36d8) path("Packages/com.unity.xr.openxr/Tests/Runtime/MetaPerformanceMetricsTest.cs") state(2)
+Script is not up to date after domain reload: guid(ed3a4a022e6847468157a3bdf5e44009) path("Packages/com.unity.xr.openxr/ConformanceAutomation/android/x64/ConformanceAutomationExt.so") state(2)
+Script is not up to date after domain reload: guid(761fdd4502cb7a84e9ec7a2b24f33f37) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/MicrosoftMotionControllerProfile.cs") state(2)
+Script is not up to date after domain reload: guid(328562bda27130c4a853afe94025c8a6) path("Packages/com.unity.xr.openxr/Tests/Editor/FeatureSetTests.cs") state(2)
+Script is not up to date after domain reload: guid(0cbcb2d3be8f3ad41bee05a404f24cd9) path("Packages/com.unity.xr.openxr/Editor/OpenXRRuntimeSelector.cs") state(2)
+Script is not up to date after domain reload: guid(1f14280be6d24cbebe229dc96fa68a7b) path("Packages/com.unity.xr.openxr/Runtime/universalwindows/x64/UnityOpenXR.dll") state(2)
+Script is not up to date after domain reload: guid(0f6bfdbcb316ed242b30a8798c9eb853) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/KHRSimpleControllerProfile.cs") state(2)
+Script is not up to date after domain reload: guid(8b33bb889b0c8154b93647f78e433227) path("Packages/com.unity.xr.openxr/Editor/OpenXRProjectValidationRulesSetup.cs") state(2)
+Script is not up to date after domain reload: guid(b5412c1c25e74fadb6cf40270b6cc572) path("Packages/com.unity.xr.openxr/MockRuntime/android/x64/libmock_runtime.so") state(2)
+Script is not up to date after domain reload: guid(2519e3cb37f9403b82040e7ba4c4ca4b) path("Packages/com.unity.xr.openxr/Runtime/windows/x64/UnityOpenXR.dll") state(2)
+Script is not up to date after domain reload: guid(d9ebf2d64363af445b053d57a30e09c3) path("Packages/com.unity.xr.openxr/Tests/Runtime/WaitForTrackingOriginRegeneration.cs") state(2)
+Script is not up to date after domain reload: guid(d96e028dbb7742b382fc7314a4fff235) path("Packages/com.unity.xr.openxr/Runtime/android/arm64/libUnityOpenXR.so") state(2)
+Script is not up to date after domain reload: guid(9a3efa70d729415faf79ea43045b8c44) path("Packages/com.unity.xr.openxr/MockRuntime/osx/mock_api.dylib") state(2)
+Script is not up to date after domain reload: guid(b1205eddf78bff947b6e9f98809dbe33) path("Packages/com.unity.xr.openxr/Runtime/Features/OpenXRFeatureInternal.cs") state(2)
+Script is not up to date after domain reload: guid(31f194d604294c9badeb49f02b7560be) path("Packages/com.unity.xr.openxr/Runtime/osx/UnityOpenXR.dylib") state(2)
+Script is not up to date after domain reload: guid(01b502b722694218bc676beaa2ee5d8e) path("Packages/com.unity.xr.openxr/MockRuntime/android/arm64/libopenxr_loader.so") state(2)
+Script is not up to date after domain reload: guid(76ee7ef6b66c489a9c3de91eb1c3fda9) path("Packages/com.unity.xr.openxr/ConformanceAutomation/osx/ConformanceAutomationExt.dylib") state(2)
+Script is not up to date after domain reload: guid(6faed99bf7c54c50a3391c7b5e36aef5) path("Packages/com.unity.xr.openxr/Runtime/universalwindows/arm32/UnityOpenXR.dll") state(2)
+Script is not up to date after domain reload: guid(2a24be4b5ebfe5f4d8ed1de9b25cb7aa) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/HandCommonPosesInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(f87eee2b71c3bf24aa0e63794ac22ae5) path("Packages/com.unity.xr.openxr/Tests/Editor/OpenXREditorTestHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(a56ab48cc5d2b854e9d6d96652e7465c) path("Packages/com.unity.xr.openxr/Runtime/OpenXRNativeTypes.cs") state(2)
+Script is not up to date after domain reload: guid(955d7e6676064962bf744dd4249736c6) path("Packages/com.unity.xr.openxr/ConformanceAutomation/universalwindows/arm64/ConformanceAutomationExt.dll") state(2)
+Script is not up to date after domain reload: guid(8329db5b1413bf24f849af3e63602cd9) path("Packages/com.unity.xr.openxr/Tests/Editor/OpenXRValidationTests.cs") state(2)
+Script is not up to date after domain reload: guid(720b3194050c471e8ef2a568fdf4f910) path("Packages/com.unity.xr.openxr/RuntimeLoaders/android/openxr_loader.aar") state(2)
+Script is not up to date after domain reload: guid(bf6c0f80d1eca304fb720a7daa4bf10c) path("Packages/com.unity.xr.openxr/Tests/Runtime/WaitForNullXRLoader.cs") state(2)
+Script is not up to date after domain reload: guid(817760b76f5e57b4698bd2a27c26f55d) path("Packages/com.unity.xr.openxr/Runtime/input/OpenXRDevice.cs") state(2)
+Script is not up to date after domain reload: guid(ad4f6b0c01997fa44844397ca09a5544) path("Packages/com.unity.xr.openxr/Runtime/OpenXRProjectValidation.cs") state(2)
+Script is not up to date after domain reload: guid(8dc9dc15a0724a46ba08d4aecabca976) path("Packages/com.unity.xr.openxr/Tests/Editor/OpenXRCallbackTests.cs") state(2)
+Script is not up to date after domain reload: guid(8de57630e1014920aa27e8075a86fee0) path("Packages/com.unity.xr.openxr/RuntimeLoaders/universalwindows/x64/openxr_loader.dll") state(2)
+Script is not up to date after domain reload: guid(742a28a82ea69ef4fba68040fee09aac) path("Packages/com.unity.xr.openxr/Tests/Editor/OpenXRDomainReloadTests.cs") state(2)
+Script is not up to date after domain reload: guid(486b5e28864f9a94b979b9620ce5006d) path("Packages/com.unity.xr.openxr/ConformanceAutomation/ConformanceAutomationFeature.cs") state(2)
+Script is not up to date after domain reload: guid(6948c0ff319b582489e91d86f4c615b8) path("Packages/com.unity.xr.openxr/Tests/Runtime/OpenXrPerformanceSettingsTest.cs") state(2)
+Script is not up to date after domain reload: guid(5019471fb2174e5c852ecd4047163007) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/HandInteractionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(2d11a038f66347888788fed0c117d2a2) path("Packages/com.unity.xr.openxr/Editor/BootConfig.cs") state(2)
+Script is not up to date after domain reload: guid(b539520d5a342436b8ee4abb353fd33b) path("Packages/com.unity.xr.openxr/Tests/Editor/zBuildSamplesYamatoOnly.cs") state(2)
+Script is not up to date after domain reload: guid(274c02963f889a64e90bc2e596e21d13) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/HTCViveControllerProfile.cs") state(2)
+Script is not up to date after domain reload: guid(d3552e428dc7646a88de3ed3650f87da) path("Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs") state(2)
+Script is not up to date after domain reload: guid(4d77402fd1ea4182b8d1ff310c214470) path("Packages/com.unity.xr.openxr/RuntimeDebugger/windows/x64/openxr_runtime_debugger.dll") state(2)
+Script is not up to date after domain reload: guid(205f1850c21694e34b2b06a191e3b27b) path("Packages/com.unity.xr.openxr/Tests/Runtime/ManagementTestSetup.cs") state(2)
+Script is not up to date after domain reload: guid(52386df32fbf4a66af2d8a20cbeaa862) path("Packages/com.unity.xr.openxr/Runtime/OpenXRRuntime.cs") state(2)
+Script is not up to date after domain reload: guid(07304509a07b28c42b25d3afb271331a) path("Packages/com.unity.xr.openxr/Runtime/Features/OpenXRFeatureSettings.cs") state(2)
+Script is not up to date after domain reload: guid(01028bf4492c94a2aab50778b3074bfc) path("Packages/com.unity.xr.openxr/Editor/BuildHelperUtils.cs") state(2)
+Script is not up to date after domain reload: guid(6faa5d2fe04f436e878e95eaf0303c48) path("Packages/com.unity.xr.openxr/RuntimeDebugger/universalwindows/arm64/openxr_runtime_debugger.dll") state(2)
+Script is not up to date after domain reload: guid(9e1f8c68ce3b3964ab84854b5c64cc5b) path("Packages/com.unity.xr.openxr/Tests/Runtime/WaitForLoaderRestart.cs") state(2)
+Script is not up to date after domain reload: guid(14582cceaceaa6949852ce064e85a84a) path("Packages/com.unity.xr.openxr/Tests/Editor/OpenXRRuntimeSelectorTests.cs") state(2)
+Script is not up to date after domain reload: guid(dcd9ce9a47c266d469ed6f967ce5be9b) path("Packages/com.unity.xr.openxr/MockRuntime/MockRuntimeFeatureSet.cs") state(2)
+Script is not up to date after domain reload: guid(ee62ffd6c7e6f3545899783b1fbdd9d4) path("Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderNoPreInit.cs") state(2)
+Script is not up to date after domain reload: guid(7a788d71a20869d4db1291a18e647426) path("Packages/com.unity.xr.openxr/Tests/Editor/FeatureTests.cs") state(2)
+Script is not up to date after domain reload: guid(a97daaeb654fbf449ac3c32bd2785d6c) path("Packages/com.unity.xr.openxr/Runtime/input/PoseControl.cs") state(2)
+Script is not up to date after domain reload: guid(12d280e0ba13c87498a380f6e8cc0e4f) path("Packages/com.unity.xr.openxr/Tests/Runtime/UnityVersionUtilityTests.cs") state(2)
+Script is not up to date after domain reload: guid(d028eb98f6c744b6ab37415275070970) path("Packages/com.unity.xr.openxr/RuntimeDebugger/universalwindows/x64/openxr_runtime_debugger.dll") state(2)
+Script is not up to date after domain reload: guid(8bd50fd6763f423fafa71f2d3f78fe1f) path("Packages/com.unity.xr.openxr/MockRuntime/windows/x64/mock_api.dll") state(2)
+Script is not up to date after domain reload: guid(dcc6b4166e9f34796961494bd96da33f) path("Packages/com.unity.xr.openxr/OculusQuest/Editor/ModifyAndroidManifestOculus.cs") state(2)
+Script is not up to date after domain reload: guid(2c99482b3559f1f47babd8d8fec8a820) path("Packages/com.unity.xr.openxr/Tests/Editor/OpenXREditorTests.cs") state(2)
+Script is not up to date after domain reload: guid(9c5b5af5107e35a43818d5411328bfc3) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/DPadInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(f647cc0545697264a9878224faada6d5) path("Packages/com.unity.xr.openxr/MetaQuest/Runtime/MetaQuestFeature.cs") state(2)
+Script is not up to date after domain reload: guid(dae12eb48b9554a46a7dfdccf1913a0f) path("Packages/com.unity.xr.openxr/Tests/Runtime/WaitForRestarter.cs") state(2)
+Script is not up to date after domain reload: guid(a921ca457a309d94c96e7d15a0df0554) path("Packages/com.unity.xr.openxr/Runtime/Features/OpenXRFeature.cs") state(2)
+Script is not up to date after domain reload: guid(011454f4f10d7894fa63c7fcbdf46552) path("Packages/com.unity.xr.openxr/Editor/FeatureSupport/OpenXRFeatureSetManager.cs") state(2)
+Script is not up to date after domain reload: guid(f7ea527b59a988a44bd10ae2a1c10c3c) path("Packages/com.unity.xr.openxr/Runtime/OpenXRSpaceSettings.cs") state(2)
+Script is not up to date after domain reload: guid(08f06941bba688d4186b3d0d58406195) path("Packages/com.unity.xr.openxr/Runtime/Features/OpenXRInteractionFeature.cs") state(2)
+Script is not up to date after domain reload: guid(6bf97c878af61544d8e27f6a50a1d9ef) path("Packages/com.unity.xr.openxr/Tests/Runtime/DiagnosticReportTests.cs") state(2)
+Script is not up to date after domain reload: guid(2755597eb30ac124c861b2694debd290) path("Packages/com.unity.xr.openxr/Tests/Editor/FeatureModifyingTests.cs") state(2)
+Script is not up to date after domain reload: guid(9050a5edea0d4cf19f270d6c4ebac796) path("Packages/com.unity.xr.openxr/Tests/Runtime/OpenXRFeatureTests.cs") state(2)
+Script is not up to date after domain reload: guid(7de993716e042c6499d0c18eed3a773c) path("Packages/com.unity.xr.openxr/MockRuntime/MockRuntime.cs") state(2)
+Script is not up to date after domain reload: guid(b213d3e3c7f3109449eb46a4c8ee42f0) path("Packages/com.unity.xr.openxr/Runtime/Features/Extensions/XrPerformanceSettingsFeature.cs") state(2)
+Script is not up to date after domain reload: guid(c8b7b7dcd4fe4f84bcf99aa302db8716) path("Packages/com.unity.xr.openxr/ConformanceAutomation/windows/x64/ConformanceAutomationExt.dll") state(2)
+Script is not up to date after domain reload: guid(32a1e7d2570a89b4caac944990252b9f) path("Packages/com.unity.xr.openxr/Tests/Runtime/OpenXRInputTests.cs") state(2)
+Script is not up to date after domain reload: guid(3b727f98ed496a3428842314282a4638) path("Packages/com.unity.xr.openxr/Tests/Runtime/MockRuntimeTests.cs") state(2)
+Script is not up to date after domain reload: guid(feeef8d85de8db242bdda70cc7ff5acd) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/OculusTouchControllerProfile.cs") state(2)
+Script is not up to date after domain reload: guid(48fee7f780ee00c44bc696d37673aec9) path("Packages/com.unity.xr.openxr/Runtime/Features/Extensions/XrPerformanceSettingsTypes.cs") state(2)
+Script is not up to date after domain reload: guid(b2ee7eecb9814c689a865aa4312a7701) path("Packages/com.unity.xr.openxr/Runtime/OpenXRAnalytics.cs") state(2)
+Script is not up to date after domain reload: guid(8d66b145a6fb419286e07398ed174994) path("Packages/com.unity.xr.openxr/OculusQuest/Runtime/android/arm64/libopenxr_loader.so") state(2)
+Script is not up to date after domain reload: guid(975057b4fdcfb8142b3080d19a5cc712) path("Packages/com.unity.xr.openxr/Editor/OpenXREditorSettings.cs") state(2)
+Script is not up to date after domain reload: guid(b3cf79659a011bd419c7a2a30eb74e9a) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/EyeGazeInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(2a022b8ced164d30806bb0a71f346f78) path("Packages/com.unity.xr.openxr/ConformanceAutomation/universalwindows/arm32/ConformanceAutomationExt.dll") state(2)
+Script is not up to date after domain reload: guid(cd0f5e8f11e44508a0c09566e4e1fe76) path("Packages/com.unity.xr.openxr/RuntimeLoaders/universalwindows/arm32/openxr_loader.dll") state(2)
+Script is not up to date after domain reload: guid(0d6ccd3d0ef0f1d458e69421dccbdae1) path("Packages/com.unity.xr.openxr/Runtime/Features/Interactions/ValveIndexControllerProfile.cs") state(2)
+Script is not up to date after domain reload: guid(ec0c31554699ca441a69ca3d47cd3fcd) path("Packages/com.unity.xr.openxr/Editor/PackageSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ee1a4eb1841c4a40a7e4a76be579ca3e) path("Packages/com.unity.xr.openxr/Tests/Editor/OpenXRInputEditorTests.cs") state(2)
+Script is not up to date after domain reload: guid(9ef793c31862a37448e907829482ef80) path("Packages/com.unity.xr.openxr/OculusQuest/Runtime/OculusQuestFeature.cs") state(2)
+Refreshing native plugins compatible for Editor in 79.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4270 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (32.6 KB). Loaded Objects now: 4748.
+Memory consumption went from 148.8 MB to 148.8 MB.
+Total: 16.475900 ms (FindLiveObjects: 7.277600 ms CreateObjectMapping: 0.592400 ms MarkObjects: 8.514600 ms  DeleteObjects: 0.089600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.618 seconds
+Refreshing native plugins compatible for Editor in 91.77 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  6.675 seconds
+Domain Reload Profiling: 10251ms
+	BeginReloadAssembly (886ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (136ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (141ms)
+	initialDomainReloadingComplete (263ms)
+	LoadAllAssembliesAndSetupDomain (2163ms)
+		LoadAssemblies (2483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (69ms)
+				TypeCache.ScanAssembly (38ms)
+			ScanForSourceGeneratedMonoScriptInfo (110ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (6676ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (224ms)
+			SetLoadedEditorAssemblies (27ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (641ms)
+			ProcessInitializeOnLoadAttributes (1581ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 80.08 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (50.6 KB). Loaded Objects now: 4873.
+Memory consumption went from 152.3 MB to 152.2 MB.
+Total: 6.455800 ms (FindLiveObjects: 0.522400 ms CreateObjectMapping: 0.518500 ms MarkObjects: 5.261200 ms  DeleteObjects: 0.152100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
